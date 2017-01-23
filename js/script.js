@@ -9,7 +9,7 @@ var k;
 
 //Write to HTML
 for (i=0; i<10; i++) {
-    for(k=0; k<i; k++) {
+    for(k=0; k<=i; k++) {
         document.write(letter);
     }
     document.write("<br>");
@@ -17,7 +17,7 @@ for (i=0; i<10; i++) {
 
 //Print to Console Log
 for (i=0; i<10; i++) {
-    for(k=0; k<i; k++) {
+    for(k=0; k<=i; k++) {
         console.log(letter);
     }
     console.log("\n");
